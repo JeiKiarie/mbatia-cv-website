@@ -2,6 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Additional custom styles */
+body {
+	@apply bg-gradient-to-b from-blue-50 to-blue-100;
+}
+
+#hero {
+	@apply h-screen bg-cover bg-center text-white relative;
+}
+
+#about,
+#experience,
+#skills,
+#projects {
+	@apply py-20;
+}
+
+h2 {
+	@apply text-4xl font-extrabold mb-12 text-center;
+}
+
+p {
+	@apply text-lg text-gray-700;
+}
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -30,4 +58,16 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+} */
+#hero {
+	height: calc(100vh - 8rem);
+}
+.active {
+	color: #1e4ed8;
+	border-bottom: 3px solid #1e4dd875;
+	transform: scale(1.2);
+}
+.active-mobile {
+	color: #1e4ed8;
+	transform: scale(1.2);
 }
