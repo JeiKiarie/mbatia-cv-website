@@ -17,13 +17,6 @@ export default function About() {
 							className="w-64 h-64 rounded-full object-cover object-right-top shadow-lg"
 						/>
 					</div>
-					{/* <div className="mb-8 lg:mb-0 lg:mr-12">
-						<img
-							src="/profile-photo.jpg"
-							alt="Your Name"
-							className="w-48 h-48 rounded-full object-cover shadow-lg"
-						/>
-					</div> */}
 
 					{/* About Content */}
 					<div className="space-y-4 max-w-xl">

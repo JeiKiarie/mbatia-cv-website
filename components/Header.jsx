@@ -102,37 +102,6 @@ export default function Header() {
 									{link.name}
 								</Link>
 							))}
-
-							{/* <Link
-								href="/"
-								className="hover:text-blue-700 active:text-blue-700"
-								onClick={toggleMenu}>
-								Home
-							</Link>
-							<Link
-								href="about-me"
-								className="hover:text-blue-700 active:text-blue-700"
-								onClick={toggleMenu}>
-								About
-							</Link>
-							<Link
-								href="experience"
-								className="hover:text-blue-700"
-								onClick={toggleMenu}>
-								Experience
-							</Link>
-							<Link
-								href="projects"
-								className="hover:text-blue-700"
-								onClick={toggleMenu}>
-								Projects
-							</Link>
-							<Link
-								href="contact"
-								className="hover:text-blue-700"
-								onClick={toggleMenu}>
-								Contact Me
-							</Link> */}
 						</nav>
 					</div>
 				)}

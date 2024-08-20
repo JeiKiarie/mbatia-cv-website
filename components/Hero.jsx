@@ -13,7 +13,7 @@ export default function Hero() {
 				animate={{ opacity: 1, scale: 1 }}
 				transition={{ duration: 2 }}>
 				<h1 className="text-5xl md:text-7xl font-extrabold tracking-tight drop-shadow-lg">
-					Hello, I'm a Quantity Surveyor
+					Hello, I&#39;m a Quantity Surveyor
 				</h1>
 				<p className="mt-4 text-xl md:text-2xl text-white max-w-xl mx-auto drop-shadow-md">
 					Expert in construction cost management and estimation.
