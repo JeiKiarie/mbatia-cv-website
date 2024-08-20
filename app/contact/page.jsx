@@ -56,16 +56,19 @@ export default function Contact() {
 					<div>
 						<form className="space-y-6">
 							<input
+								required
 								type="text"
 								placeholder="Name"
 								className="w-full p-4 bg-white text-black rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-300"
 							/>
 							<input
+								required
 								type="email"
 								placeholder="Email"
 								className="w-full p-4 bg-white text-black rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-300"
 							/>
 							<textarea
+								required
 								placeholder="Message"
 								className="w-full p-4 bg-white text-black rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-300"></textarea>
 							<button
