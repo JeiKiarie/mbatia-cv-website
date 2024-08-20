@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function About() {
 	return (
 		<section
@@ -7,7 +9,9 @@ export default function About() {
 				<div className="flex flex-col lg:flex-row items-center lg:items-start text-center lg:text-left">
 					{/* Profile Photo */}
 					<div className="mb-8 lg:mb-0 lg:mr-12">
-						<img
+						<Image
+							width={300}
+							height={300}
 							src="/kiarie.jpg"
 							alt="Your Name"
 							className="w-64 h-64 rounded-full object-cover object-right-top shadow-lg"

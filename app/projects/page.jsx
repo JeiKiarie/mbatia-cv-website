@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Projects() {
 	return (
 		<section
@@ -7,7 +9,9 @@ export default function Projects() {
 				<h2 className="text-4xl font-extrabold mb-12 text-center">Projects</h2>
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 					<div className="bg-white p-6 rounded-lg shadow-lg transform hover:-translate-y-2 hover:shadow-2xl transition duration-300">
-						<img
+						<Image
+							width={1000}
+							height={1000}
 							src="/home-image.jpg"
 							alt="Project Name"
 							className="w-full h-40 object-cover rounded-lg mb-4"
@@ -16,7 +20,9 @@ export default function Projects() {
 						<p>Project details.</p>
 					</div>
 					<div className="bg-white p-6 rounded-lg shadow-lg transform hover:-translate-y-2 hover:shadow-2xl transition duration-300">
-						<img
+						<Image
+							width={1000}
+							height={1000}
 							src="/home-image.jpg"
 							alt="Project Name"
 							className="w-full h-40 object-cover rounded-lg mb-4"
@@ -25,7 +31,9 @@ export default function Projects() {
 						<p>Project details.</p>
 					</div>
 					<div className="bg-white p-6 rounded-lg shadow-lg transform hover:-translate-y-2 hover:shadow-2xl transition duration-300">
-						<img
+						<Image
+							width={1000}
+							height={1000}
 							src="/home-image.jpg"
 							alt="Project Name"
 							className="w-full h-40 object-cover rounded-lg mb-4"
@@ -34,7 +42,9 @@ export default function Projects() {
 						<p>Project details.</p>
 					</div>
 					<div className="bg-white p-6 rounded-lg shadow-lg transform hover:-translate-y-2 hover:shadow-2xl transition duration-300">
-						<img
+						<Image
+							width={1000}
+							height={1000}
 							src="/home-image.jpg"
 							alt="Project Name"
 							className="w-full h-40 object-cover rounded-lg mb-4"
@@ -43,7 +53,9 @@ export default function Projects() {
 						<p>Project details.</p>
 					</div>
 					<div className="bg-white p-6 rounded-lg shadow-lg transform hover:-translate-y-2 hover:shadow-2xl transition duration-300">
-						<img
+						<Image
+							width={1000}
+							height={1000}
 							src="/home-image.jpg"
 							alt="Project Name"
 							className="w-full h-40 object-cover rounded-lg mb-4"

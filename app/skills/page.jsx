@@ -12,55 +12,35 @@ export default function Skills() {
 						<i className="w-16 h-16 text-[2rem] mb-4">
 							<FaCalculator />
 						</i>
-						{/* <img
-							src="/skills-icon1.svg"
-							alt="Cost Estimation"
-							className="w-8 h-8 mb-4"
-						/> */}
+
 						<h3 className="text-2xl font-bold">Cost Estimation</h3>
 					</div>
 					<div className="bg-blue-500 text-white p-6 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 flex flex-col items-center justify-center">
 						<i className="w-16 h-16 text-[2rem] mb-4">
 							<FaCalculator />
 						</i>
-						{/* <img
-							src="/skills-icon1.svg"
-							alt="Cost Estimation"
-							className="w-8 h-8 mb-4"
-						/> */}
+
 						<h3 className="text-2xl font-bold">Cost Estimation</h3>
 					</div>
 					<div className="bg-blue-500 text-white p-6 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 flex flex-col items-center justify-center">
 						<i className="w-16 h-16 text-[2rem] mb-4">
 							<FaCalculator />
 						</i>
-						{/* <img
-							src="/skills-icon1.svg"
-							alt="Cost Estimation"
-							className="w-8 h-8 mb-4"
-						/> */}
+
 						<h3 className="text-2xl font-bold">Cost Estimation</h3>
 					</div>
 					<div className="bg-blue-500 text-white p-6 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 flex flex-col items-center justify-center">
 						<i className="w-16 h-16 text-[2rem] mb-4">
 							<FaCalculator />
 						</i>
-						{/* <img
-							src="/skills-icon1.svg"
-							alt="Cost Estimation"
-							className="w-8 h-8 mb-4"
-						/> */}
+
 						<h3 className="text-2xl font-bold">Cost Estimation</h3>
 					</div>
 					<div className="bg-blue-500 text-white p-6 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 flex flex-col items-center justify-center">
 						<i className="w-16 h-16 text-[2rem] mb-4">
 							<FaCalculator />
 						</i>
-						{/* <img
-							src="/skills-icon1.svg"
-							alt="Cost Estimation"
-							className="w-8 h-8 mb-4"
-						/> */}
+
 						<h3 className="text-2xl font-bold">Cost Estimation</h3>
 					</div>
 					{/* <!-- Additional skills go here --> */}

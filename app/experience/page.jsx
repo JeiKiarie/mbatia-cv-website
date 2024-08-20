@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Experience() {
 	return (
 		<section
@@ -9,8 +11,11 @@ export default function Experience() {
 				</h2>
 				<div className="flex flex-wrap gap-4 flex-col md:flex-row items-center">
 					<div className="basis-[45%] flex flex-col items-center">
-						<div className="bg-blue-700 rounded-full h-36 w-36 flex items-center">
-							<img
+						<div className="bg-blue-700 rounded-full h-44 w-44 flex items-center justify-center">
+							<Image
+								className="object-contain"
+								width={150}
+								height={150}
 								src="/simbacorp.webp"
 								alt="ABC Construction Logo"
 								// className="h-full w-full"
@@ -30,8 +35,11 @@ export default function Experience() {
 						</div>
 					</div>
 					<div className="basis-[45%] flex flex-col items-center">
-						<div className="bg-blue-700 rounded-full h-36 w-36 flex items-center">
-							<img
+						<div className="bg-blue-700 rounded-full h-44 w-44 flex items-center justify-center">
+							<Image
+								className="object-contain"
+								width={150}
+								height={150}
 								src="/simbacorp.webp"
 								alt="ABC Construction Logo"
 								// className="h-full w-full"
@@ -51,8 +59,11 @@ export default function Experience() {
 						</div>
 					</div>
 					<div className="basis-[45%] flex flex-col items-center">
-						<div className="bg-blue-700 rounded-full h-36 w-36 flex items-center">
-							<img
+						<div className="bg-blue-700 rounded-full h-44 w-44 flex items-center justify-center">
+							<Image
+								className="object-contain"
+								width={150}
+								height={150}
 								src="/simbacorp.webp"
 								alt="ABC Construction Logo"
 								// className="h-full w-full"

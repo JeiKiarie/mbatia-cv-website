@@ -64,6 +64,7 @@ export default function Header() {
 				<nav className="hidden lg:flex space-x-6 text-lg">
 					{links.map((link) => (
 						<Link
+							key={link.name}
 							href={link.link}
 							// className="hover:text-blue-700 active:text-blue-700"
 							className={
@@ -89,6 +90,7 @@ export default function Header() {
 						<nav className="flex flex-col items-center space-y-4 text-lg p-6">
 							{links.map((link) => (
 								<Link
+									key={link.name}
 									href={link.link}
 									// className="hover:text-blue-700 active:text-blue-700"
 									className={
