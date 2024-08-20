@@ -39,7 +39,7 @@ export default function About() {
 							<a
 								href="/cv.pdf"
 								download="YourName_CV.pdf"
-								className="inline-block px-8 py-4 bg-blue-600 hover:bg-blue-800 rounded-full text-lg font-bold shadow-lg transform transition duration-300 hover:scale-105">
+								className="text-white inline-block px-8 py-4 bg-blue-600 hover:bg-blue-800 rounded-full text-lg font-bold shadow-lg transform transition duration-300 hover:scale-105">
 								Download CV
 							</a>
 						</div>
