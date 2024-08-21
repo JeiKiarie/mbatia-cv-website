@@ -19,7 +19,7 @@ export default function About() {
 					</div>
 
 					{/* About Content */}
-					<div className="space-y-4 max-w-xl">
+					<div className="space-y-4 max-w-xl mx-auto">
 						<h2 className="text-4xl font-extrabold">About Me</h2>
 						<p className="text-lg text-gray-700">
 							I have over 6 years of experience in Quantity Surveying and Cost
@@ -33,7 +33,7 @@ export default function About() {
 						</p>
 						<div className="mt-8 bg-gradient-to-r from-blue-500 to-blue-700 text-white p-6 rounded-xl shadow-lg">
 							<h3 className="text-2xl font-bold mb-2">Key Strengths</h3>
-							<ul className="list-disc list-inside">
+							<ul className="list-none list-inside">
 								<li>Cost Management</li>
 								<li>Project Planning</li>
 								<li>Insurance Loss Adjustment Consultancy & Valuations</li>
