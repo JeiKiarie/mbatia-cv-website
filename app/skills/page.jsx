@@ -32,7 +32,7 @@ export default function Skills() {
 						</h3>
 					</div>
 					<div className="bg-blue-500 text-white p-6 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 flex flex-col items-center gap-4 justify-center">
-						<i>
+						<i className="text-[2rem] mb-4">
 							<FaClipboard className="text-[3rem] text-center w-full" />
 						</i>
 
