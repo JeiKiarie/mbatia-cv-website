@@ -42,7 +42,7 @@ export default function Header() {
 	const isActive = (path) => pathname === path;
 
 	return (
-		<header className="bg-gray-800 shadow-lg h-20 fixed w-full top-0 left-0 z-50 py-2">
+		<header className="bg-gray-800 shadow-lg h-20 fixed w-full top-0 left-0 z-50 p-2">
 			<div className="w-full mx-auto px-2 flex justify-between items-center h-16">
 				{/* Logo */}
 				<div className="text-2xl md:text-3xl font-bold">
