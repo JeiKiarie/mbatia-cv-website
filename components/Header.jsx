@@ -75,7 +75,7 @@ export default function Header() {
 				<div className="lg:hidden">
 					<button
 						onClick={toggleMenu}
-						className="text-2xl text-blue-700 focus:outline-none">
+						className="text-2xl text-[whitesmoke] focus:outline-none">
 						{isOpen ? <FaTimes /> : <FaBars />}
 					</button>
 				</div>
