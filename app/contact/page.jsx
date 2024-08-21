@@ -9,7 +9,7 @@ export default function Contact() {
 	return (
 		<section
 			id="contact"
-			className="relative py-20 bg-gradient-to-r from-blue-500 to-blue-700 text-white"
+			className="mt-8 relative py-20 bg-gradient-to-r from-blue-500 to-blue-700 text-white"
 			style={{
 				backgroundImage: 'url("/contact-image.jpg")',
 				backgroundSize: 'cover',

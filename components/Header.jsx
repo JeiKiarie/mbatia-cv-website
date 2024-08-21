@@ -42,22 +42,18 @@ export default function Header() {
 	const isActive = (path) => pathname === path;
 
 	return (
-		<header className="bg-white shadow-lg fixed w-full top-0 left-0 z-50">
-			<div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 flex justify-between items-center h-16">
+		<header className="bg-white shadow-lg h-20 fixed w-full top-0 left-0 z-50">
+			<div className="w-full mx-auto px-2 flex justify-between items-center h-16">
 				{/* Logo */}
-				<div className="text-2xl font-bold">
-					<a
+				<div className="text-2xl md:text-3xl font-bold">
+					<Link
 						href="/"
 						className="text-blue-700">
-						J Kiarie
-					</a>
+						Bernard Mbatia <br /> Mwangi
+					</Link>
 				</div>
-				<div className="text-2xl font-bold">
-					<a
-						href="/"
-						className="text-blue-700">
-						Curriculum Vitae
-					</a>
+				<div className="md:text-2xl text-1xl font-bold text-blue-700">
+					Portfolio Website/CV
 				</div>
 
 				{/* Desktop Menu */}

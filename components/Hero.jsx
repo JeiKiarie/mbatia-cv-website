@@ -4,7 +4,7 @@ export default function Hero() {
 	return (
 		<section
 			id="hero"
-			className="relative flex items-center justify-center bg-cover bg-center bg-no-repeat text-white mt-[4.1rem]"
+			className=" relative flex items-center justify-center bg-cover bg-center bg-no-repeat text-white mt-[5.3rem]"
 			style={{ backgroundImage: 'url("/home-image.jpg")' }}>
 			<div className="absolute inset-0 bg-gradient-to-r from-blue-900 to-black opacity-60"></div>
 			<motion.div
