@@ -53,7 +53,7 @@ export default function Header() {
 					</Link>
 				</div>
 				<div className="md:text-2xl text-1xl font-bold text-blue-700">
-					Portfolio Website/CV
+					Portfolio <br /> Website/CV
 				</div>
 
 				{/* Desktop Menu */}
