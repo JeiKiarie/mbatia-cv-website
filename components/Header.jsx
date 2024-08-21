@@ -42,17 +42,17 @@ export default function Header() {
 	const isActive = (path) => pathname === path;
 
 	return (
-		<header className="bg-white shadow-lg h-20 fixed w-full top-0 left-0 z-50">
+		<header className="bg-gray-800 shadow-lg h-20 fixed w-full top-0 left-0 z-50 py-2">
 			<div className="w-full mx-auto px-2 flex justify-between items-center h-16">
 				{/* Logo */}
 				<div className="text-2xl md:text-3xl font-bold">
 					<Link
 						href="/"
-						className="text-blue-700">
+						className="text-[whitesmoke]">
 						Bernard Mbatia <br /> Mwangi
 					</Link>
 				</div>
-				<div className="md:text-2xl text-1xl font-bold text-blue-700">
+				<div className="md:text-2xl text-1xl font-bold text-[whitesmoke]">
 					Portfolio <br /> Website/CV
 				</div>
 
@@ -64,7 +64,7 @@ export default function Header() {
 							href={link.link}
 							// className="hover:text-blue-700 active:text-blue-700"
 							className={
-								isActive(`${link.link}`) ? 'active' : 'hover:text-blue-700'
+								isActive(`${link.link}`) ? 'active' : 'text-[whitesmoke]'
 							}>
 							{link.name}
 						</Link>

@@ -63,8 +63,8 @@ body {
 	height: calc(100vh - 9.2rem);
 }
 .active {
-	color: #1e4ed8;
-	border-bottom: 3px solid #1e4dd875;
+	color: whitesmoke;
+	border-bottom: 3px solid whitesmoke;
 	transform: scale(1.2);
 }
 .active-mobile {
