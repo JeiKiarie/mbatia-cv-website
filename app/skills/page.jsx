@@ -15,12 +15,7 @@ export default function Skills() {
 			id="skills"
 			className="py-20 bg-white mt-8">
 			<div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
-				<h2 className="text-4xl font-extrabold mb-12 text-center">
-					Skills
-					<span>
-						<small>(among others)</small>
-					</span>
-				</h2>
+				<h2 className="text-4xl font-extrabold mb-12 text-center">Skills</h2>
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
 					<div className="bg-blue-500 text-white p-6 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 flex flex-col items-center gap-4  justify-center">
 						<i className="text-[2rem] mb-4">
