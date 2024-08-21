@@ -89,6 +89,40 @@ export default function Skills() {
 					{/* <!-- Additional skills go here --> */}
 				</div>
 			</div>
+			{/* Education & Qualifications Section */}
+			<div className="mt-8">
+				<h2 className="text-4xl font-extrabold text-center">
+					Education & Qualifications
+				</h2>
+				<p className="text-lg text-center text-gray-700 mt-4">
+					Academic background and professional certifications.
+				</p>
+				{/* Education List */}
+				<div className="mt-8 space-y-8">
+					<div className="bg-white p-6 shadow-md rounded-lg text-center">
+						<h3 className="text-xl font-bold">Diploma in Quantity Surveying</h3>
+						<p className="text-gray-600">
+							2016 - 2022 Kenya Institute of Professional Studies Technical
+							College
+						</p>
+						{/* <p className="text-gray-500 mt-2">
+							Graduated with honours
+						</p> */}
+					</div>
+
+					<div className="bg-white p-6 shadow-md rounded-lg text-center">
+						<h3 className="text-xl font-bold">
+							Kenya Certificate of Secondary Education
+						</h3>
+						<p className="text-gray-600">
+							2012 - 2015 St Augustine Gikondi Boys Secondary School
+						</p>
+						{/* <p className="text-gray-500 mt-2">
+							Specialization in project management methodologies and tools.
+						</p> */}
+					</div>
+				</div>
+			</div>
 		</section>
 	);
 }

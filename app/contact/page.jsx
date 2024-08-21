@@ -29,17 +29,15 @@ export default function Contact() {
 						<h3 className="text-3xl font-bold">Contact Details</h3>
 						<div className="flex items-center">
 							<FaPhoneAlt className="text-xl mr-4" />
-							<span className="text-lg">+254 722 711162</span>
+							<span className="text-lg">+254 799 314567</span>
 						</div>
 						<div className="flex items-center">
 							<FaEnvelope className="text-xl mr-4" />
-							<span className="text-lg">kiarie@microstation.co.ke</span>
+							<span className="text-lg">b.m.mbatia@gmail.com</span>
 						</div>
 						<div className="flex items-center">
 							<FaMapMarkerAlt className="text-xl mr-4" />
-							<span className="text-lg">
-								New Doonholm Road, Doonholm, Nairobi, Kenya
-							</span>
+							<span className="text-lg">Nairobi, Kenya</span>
 						</div>
 						<div className="flex items-center">
 							<FaLinkedin className="text-xl mr-4" />
@@ -47,7 +45,7 @@ export default function Contact() {
 								href="https://www.linkedin.com/in/yourprofile"
 								target="_blank"
 								className="text-lg hover:underline">
-								linkedin.com/in/jeikiarie
+								linkedin.com/in/mbatia
 							</a>
 						</div>
 					</div>
