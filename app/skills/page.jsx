@@ -27,21 +27,25 @@ export default function Skills() {
 							<FaCalculator />
 						</i>
 
-						<h3 className="text-2xl font-bold">Cost Estimation & Management</h3>
+						<h3 className="text-[1rem] md:text-2xl font-bold">
+							Cost Estimation & Management
+						</h3>
 					</div>
 					<div className="bg-blue-500 text-white p-6 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 flex flex-col items-center justify-center">
 						<i className="w-16 h-16 text-[2rem] mb-4">
 							<FaClipboard />
 						</i>
 
-						<h3 className="text-2xl font-bold">Project Planning</h3>
+						<h3 className="text-[1rem] md:text-2xl font-bold">
+							Project Planning
+						</h3>
 					</div>
 					<div className="bg-blue-500 text-white p-6 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 flex flex-col items-center justify-center">
 						<i className="w-16 h-16 text-[2rem] mb-4">
 							<FaSackDollar />
 						</i>
 
-						<h3 className="text-2xl font-bold">
+						<h3 className="text-[1rem] md:text-2xl font-bold">
 							Insurance Loss Adjustment Consultancy & Valuations
 						</h3>
 					</div>
@@ -50,21 +54,25 @@ export default function Skills() {
 							<FaChartBar />
 						</i>
 
-						<h3 className="text-2xl font-bold">Interim Valuations</h3>
+						<h3 className="text-[1rem] md:text-2xl font-bold">
+							Interim Valuations
+						</h3>
 					</div>
 					<div className="bg-blue-500 text-white p-6 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 flex flex-col items-center justify-center">
 						<i className="w-16 h-16 text-[2rem] mb-4">
 							<TbRulerMeasure />
 						</i>
 
-						<h3 className="text-2xl font-bold">Site Measurements</h3>
+						<h3 className="text-[1rem] md:text-2xl font-bold">
+							Site Measurements
+						</h3>
 					</div>
 					<div className="bg-blue-500 text-white p-6 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 flex flex-col items-center justify-center">
 						<i className="w-16 h-16 text-[2rem] mb-4">
 							<FaCoins />
 						</i>
 
-						<h3 className="text-2xl font-bold">
+						<h3 className="text-[1rem] md:text-2xl font-bold">
 							Preparation of Final Accounts for Contractors
 						</h3>
 					</div>
@@ -73,7 +81,7 @@ export default function Skills() {
 							<SiAutodeskrevit />
 						</i>
 
-						<h3 className="text-2xl font-bold">
+						<h3 className="text-[1rem] md:text-2xl font-bold">
 							CAD Software: ArchiCAD, Revit
 						</h3>
 					</div>
@@ -82,7 +90,7 @@ export default function Skills() {
 							<TfiMicrosoftAlt />
 						</i>
 
-						<h3 className="text-2xl font-bold">
+						<h3 className="text-[1rem] md:text-2xl font-bold">
 							Applications: WinQS, MS Office (Excel, Word, PowerPoint)
 						</h3>
 					</div>
