@@ -19,7 +19,7 @@ export default function Contact() {
 			<div className="absolute inset-0 bg-black opacity-50"></div>
 
 			<div className="relative max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
-				<h2 className="text-4xl font-extrabold mb-12 text-center relative">
+				<h2 className="text-4xl font-extrabold mb-12 text-center mx-auto relative">
 					Contact Me
 				</h2>
 
