@@ -22,75 +22,75 @@ export default function Skills() {
 					</span>
 				</h2>
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
-					<div className="bg-blue-500 text-white p-6 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 flex flex-col items-center justify-center">
+					<div className="bg-blue-500 text-white p-6 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 flex flex-col items-center gap-4  justify-center">
 						<i className="w-16 h-16 text-[2rem] mb-4">
-							<FaCalculator />
+							<FaCalculator className="text-[3rem] text-center w-full" />
 						</i>
 
-						<h3 className="text-[1rem] md:text-2xl font-bold">
+						<h3 className="text-[1rem] md:text-2xl font-bold text-center">
 							Cost Estimation & Management
 						</h3>
 					</div>
-					<div className="bg-blue-500 text-white p-6 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 flex flex-col items-center justify-center">
-						<i className="w-16 h-16 text-[2rem] mb-4">
-							<FaClipboard />
+					<div className="bg-blue-500 text-white p-6 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 flex flex-col items-center gap-4 justify-center">
+						<i>
+							<FaClipboard className="text-[3rem] text-center w-full" />
 						</i>
 
-						<h3 className="text-[1rem] md:text-2xl font-bold">
+						<h3 className="text-[1rem] md:text-2xl font-bold text-center">
 							Project Planning
 						</h3>
 					</div>
-					<div className="bg-blue-500 text-white p-6 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 flex flex-col items-center justify-center">
+					<div className="bg-blue-500 text-white p-6 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 flex flex-col items-center gap-4 justify-center">
 						<i className="w-16 h-16 text-[2rem] mb-4">
-							<FaSackDollar />
+							<FaSackDollar className="text-[3rem] text-center w-full" />
 						</i>
 
-						<h3 className="text-[1rem] md:text-2xl font-bold">
+						<h3 className="text-[1rem] md:text-2xl font-bold text-center">
 							Insurance Loss Adjustment Consultancy & Valuations
 						</h3>
 					</div>
-					<div className="bg-blue-500 text-white p-6 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 flex flex-col items-center justify-center">
+					<div className="bg-blue-500 text-white p-6 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 flex flex-col items-center gap-4 justify-center">
 						<i className="w-16 h-16 text-[2rem] mb-4">
-							<FaChartBar />
+							<FaChartBar className="text-[3rem] text-center w-full" />
 						</i>
 
-						<h3 className="text-[1rem] md:text-2xl font-bold">
+						<h3 className="text-[1rem] md:text-2xl font-bold text-center">
 							Interim Valuations
 						</h3>
 					</div>
-					<div className="bg-blue-500 text-white p-6 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 flex flex-col items-center justify-center">
+					<div className="bg-blue-500 text-white p-6 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 flex flex-col items-center gap-4 justify-center">
 						<i className="w-16 h-16 text-[2rem] mb-4">
-							<TbRulerMeasure />
+							<TbRulerMeasure className="text-[3rem] text-center w-full" />
 						</i>
 
-						<h3 className="text-[1rem] md:text-2xl font-bold">
+						<h3 className="text-[1rem] md:text-2xl font-bold text-center">
 							Site Measurements
 						</h3>
 					</div>
-					<div className="bg-blue-500 text-white p-6 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 flex flex-col items-center justify-center">
+					<div className="bg-blue-500 text-white p-6 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 flex flex-col items-center justify-center gap-4 ">
 						<i className="w-16 h-16 text-[2rem] mb-4">
-							<FaCoins />
+							<FaCoins className="text-[3rem] text-center w-full" />
 						</i>
 
-						<h3 className="text-[1rem] md:text-2xl font-bold">
+						<h3 className="text-[1rem] md:text-2xl font-bold text-center">
 							Preparation of Final Accounts for Contractors
 						</h3>
 					</div>
-					<div className="bg-blue-500 text-white p-6 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 flex flex-col items-center justify-center">
+					<div className="bg-blue-500 text-white p-6 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 flex flex-col items-center justify-center gap-4">
 						<i className="w-16 h-16 text-[2rem] mb-4">
-							<SiAutodeskrevit />
+							<SiAutodeskrevit className="text-[3rem] text-center w-full" />
 						</i>
 
-						<h3 className="text-[1rem] md:text-2xl font-bold">
+						<h3 className="text-[1rem] md:text-2xl font-bold text-center">
 							CAD Software: ArchiCAD, Revit
 						</h3>
 					</div>
-					<div className="bg-blue-500 text-white p-6 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 flex flex-col items-center justify-center">
+					<div className="bg-blue-500 text-white p-6 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 flex flex-col items-center justify-center gap-4">
 						<i className="w-16 h-16 text-[2rem] mb-4">
-							<TfiMicrosoftAlt />
+							<TfiMicrosoftAlt className="text-[3rem] text-center w-full" />
 						</i>
 
-						<h3 className="text-[1rem] md:text-2xl font-bold">
+						<h3 className="text-[1rem] md:text-2xl text-center font-bold">
 							Applications: WinQS, MS Office (Excel, Word, PowerPoint)
 						</h3>
 					</div>
