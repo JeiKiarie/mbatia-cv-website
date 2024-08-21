@@ -25,7 +25,7 @@ export default function Contact() {
 
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-12 relative">
 					{/* Contact Details Section */}
-					<div className="space-y-6">
+					<div className="space-y-6 mx-auto md:mx-8">
 						<h3 className="text-3xl font-bold">Contact Details</h3>
 						<div className="flex items-center">
 							<FaPhoneAlt className="text-xl mr-4" />
