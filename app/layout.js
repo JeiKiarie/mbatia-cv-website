@@ -3,8 +3,9 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 export const metadata = {
-	title: 'Quantity Surveyor CV',
-	description: 'Resume website for a professional Quantity Surveyor.',
+	title:
+		'Bernard Mbatia Mwangi Portfolio Website/Cv, Portfolio website for a professional Quantity Surveyor.',
+	description: 'Portfolio website for a professional Quantity Surveyor.',
 };
 
 export default function RootLayout({ children }) {
