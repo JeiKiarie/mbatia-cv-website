@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 
 export const metadata = {
 	title:
-		'Bernard Mbatia Mwangi Portfolio Website/Cv, Portfolio website for a professional Quantity Surveyor.',
+		'Bernard Mbatia Mwangi Portfolio Website/CV, Portfolio website for a professional Quantity Surveyor.',
 	description: 'Portfolio website for a professional Quantity Surveyor.',
 };
 
