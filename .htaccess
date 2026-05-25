@@ -1,0 +1,5 @@
+# This site is deployed on Netlify (Next.js runtime, not static export)
+
+# Netlify ignores .htaccess — routing is handled by Netlify's infrastructure
+
+# This file is intentionally left empty
