@@ -4,6 +4,8 @@ import { pageMetadata } from '../seo';
 export const metadata = pageMetadata('/about-me');
 
 export default function About() {
+	const yearsOfExperience = new Date().getFullYear() - 2018;
+
 	return (
 		<section
 			id="about"
@@ -26,14 +28,15 @@ export default function About() {
 					<div className="space-y-4 max-w-xl mx-auto">
 						<h2 className="text-4xl font-extrabold">About Me</h2>
 						<p className="text-lg text-gray-700">
-							I have over 6 years of experience in Quantity Surveying and Cost
-							Consultancy, specializing in Cost Management, Estimation, and
-							Project Management. I bring expertise in preparation of Pretender
-							Cost Estimates, Measurements & Bills of Quantities/Specifications,
-							Tender Evaluations Reports, Project Contract & Sub Contracts,
-							Interim Valuations, Insurance Loss Adjustment Consultancy &
-							Valuations, Preparation of Final Accounts for Main Contractors and
-							Sub-contractors coordination as well as Site Measurements.
+							I have over {yearsOfExperience} years of experience in Quantity
+							Surveying and Cost Consultancy, specializing in Cost Management,
+							Estimation, and Project Management. I bring expertise in
+							preparation of Pretender Cost Estimates, Measurements & Bills of
+							Quantities/Specifications, Tender Evaluations Reports, Project
+							Contract & Sub Contracts, Interim Valuations, Insurance Loss
+							Adjustment Consultancy & Valuations, Preparation of Final Accounts
+							for Main Contractors and Sub-contractors coordination as well as
+							Site Measurements.
 						</p>
 						<div className="mt-8 bg-gradient-to-r from-blue-500 to-blue-700 text-white p-6 rounded-xl shadow-lg">
 							<h3 className="text-2xl font-bold mb-2">Key Strengths</h3>
