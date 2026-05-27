@@ -60,7 +60,7 @@ body {
   }
 } */
 #hero {
-	height: calc(100vh - 9.2rem);
+	height: calc(100vh - 10.5rem);
 }
 .active {
 	color: whitesmoke;
