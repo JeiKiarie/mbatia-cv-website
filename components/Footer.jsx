@@ -7,7 +7,7 @@ export default function Footer() {
 			<p className="text-white">
 				© {year} Bernard Mbatia Mwangi. All rights reserved.
 			</p>
-			<p className="mt-1 text-xs text-gray-400">
+			<div className="mt-1 text-xs text-gray-400 leading-tight">
 				<Link
 					href="https://microstation.co.ke/"
 					target="_blank"
@@ -15,7 +15,7 @@ export default function Footer() {
 					className="hover:text-white hover:underline pb-1">
 					Website by JeiKiarie
 				</Link>
-			</p>
+			</div>
 		</footer>
 	);
 }
