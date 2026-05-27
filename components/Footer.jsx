@@ -12,7 +12,7 @@ export default function Footer() {
 					href="https://microstation.co.ke/"
 					target="_blank"
 					rel="noreferrer"
-					className="hover:text-white hover:underline">
+					className="hover:text-white hover:underline pb-1">
 					Website by JeiKiarie
 				</Link>
 			</p>
