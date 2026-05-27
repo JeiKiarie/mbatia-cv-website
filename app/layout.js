@@ -1,16 +1,107 @@
 import './globals.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import {
+	defaultDescription,
+	defaultTitle,
+	keywords,
+	siteName,
+	siteUrl,
+} from './seo';
 
 export const metadata = {
-	title:
-		'Bernard Mbatia Mwangi Portfolio Website/CV, Portfolio website for a professional Quantity Surveyor.',
-	description: 'Portfolio website for a professional Quantity Surveyor.',
+	metadataBase: new URL(siteUrl),
+	applicationName: siteName,
+	title: {
+		default: defaultTitle,
+		template: `%s | ${siteName}`,
+	},
+	description: defaultDescription,
+	keywords,
+	authors: [{ name: 'Bernard Mbatia Mwangi' }],
+	creator: 'Bernard Mbatia Mwangi',
+	publisher: 'Bernard Mbatia Mwangi',
+	category: 'Professional portfolio',
+	alternates: {
+		canonical: '/',
+	},
+	openGraph: {
+		type: 'profile',
+		locale: 'en_KE',
+		url: '/',
+		siteName,
+		title: defaultTitle,
+		description: defaultDescription,
+		images: [
+			{
+				url: '/Mbatia.png',
+				width: 300,
+				height: 300,
+				alt: 'Bernard Mbatia Mwangi',
+			},
+		],
+	},
+	twitter: {
+		card: 'summary_large_image',
+		title: defaultTitle,
+		description: defaultDescription,
+		images: ['/Mbatia.png'],
+	},
+	robots: {
+		index: true,
+		follow: true,
+		googleBot: {
+			index: true,
+			follow: true,
+			'max-image-preview': 'large',
+			'max-snippet': -1,
+			'max-video-preview': -1,
+		},
+	},
+	icons: {
+		icon: '/favicon.ico',
+		apple: '/Mbatia.png',
+	},
+	manifest: '/site.webmanifest',
 };
 
 export default function RootLayout({ children }) {
+	const structuredData = {
+		'@context': 'https://schema.org',
+		'@type': 'Person',
+		name: 'Bernard Mbatia Mwangi',
+		jobTitle: 'Quantity Surveyor',
+		url: siteUrl,
+		image: `${siteUrl}/Mbatia.png`,
+		email: 'mailto:b.m.mbatia@gmail.com',
+		telephone: '+254799314567',
+		address: {
+			'@type': 'PostalAddress',
+			addressLocality: 'Nairobi',
+			addressCountry: 'KE',
+		},
+		knowsAbout: [
+			'Quantity Surveying',
+			'Construction Cost Management',
+			'Bills of Quantities',
+			'Tender Evaluation',
+			'Interim Valuations',
+			'Site Measurements',
+			'Insurance Loss Adjustment Consultancy',
+		],
+		sameAs: ['https://www.linkedin.com/in/mbatia'],
+	};
+
 	return (
 		<html lang="en">
+			<head>
+				<script
+					type="application/ld+json"
+					dangerouslySetInnerHTML={{
+						__html: JSON.stringify(structuredData),
+					}}
+				/>
+			</head>
 			<body className="min-h-screen flex flex-col">
 				<Header />
 				<main className="flex-grow">{children}</main>

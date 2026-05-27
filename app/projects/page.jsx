@@ -1,4 +1,7 @@
 import Image from 'next/image';
+import { pageMetadata } from '../seo';
+
+export const metadata = pageMetadata('/projects');
 
 export default function Projects() {
 	return (

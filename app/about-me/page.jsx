@@ -1,4 +1,7 @@
 import Image from 'next/image';
+import { pageMetadata } from '../seo';
+
+export const metadata = pageMetadata('/about-me');
 
 export default function About() {
 	return (
@@ -13,8 +16,9 @@ export default function About() {
 							width={300}
 							height={300}
 							src="/Mbatia.png"
-							alt="Your Name"
+							alt="Bernard Mbatia Mwangi"
 							className="w-64 h-64 rounded-full object-cover object-center shadow-lg"
+							priority
 						/>
 					</div>
 

@@ -1,0 +1,17 @@
+{
+	"name": "Bernard Mbatia Mwangi Portfolio",
+	"short_name": "Mbatia CV",
+	"description": "Portfolio and CV for Bernard Mbatia Mwangi, Quantity Surveyor in Nairobi, Kenya.",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#ffffff",
+	"theme_color": "#1d4ed8",
+	"icons": [
+		{
+			"src": "/Mbatia.png",
+			"sizes": "300x300",
+			"type": "image/png",
+			"purpose": "any maskable"
+		}
+	]
+}

@@ -1,5 +1,7 @@
-'use client';
 import Hero from '../components/Hero';
+import { pageMetadata } from './seo';
+
+export const metadata = pageMetadata('/');
 
 export default function Home() {
 	return (

@@ -8,6 +8,9 @@ import { FaCoins } from 'react-icons/fa';
 import { SiAutodesk } from 'react-icons/si';
 import { TfiMicrosoftAlt } from 'react-icons/tfi';
 import { SiAutodeskrevit } from 'react-icons/si';
+import { pageMetadata } from '../seo';
+
+export const metadata = pageMetadata('/skills');
 
 export default function Skills() {
 	return (

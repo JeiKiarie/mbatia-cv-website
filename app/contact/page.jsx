@@ -4,6 +4,9 @@ import {
 	FaMapMarkerAlt,
 	FaLinkedin,
 } from 'react-icons/fa';
+import { pageMetadata } from '../seo';
+
+export const metadata = pageMetadata('/contact');
 
 export default function Contact() {
 	return (
@@ -42,8 +45,9 @@ export default function Contact() {
 						<div className="flex items-center">
 							<FaLinkedin className="text-xl mr-4" />
 							<a
-								href="https://www.linkedin.com/in/yourprofile"
+								href="https://www.linkedin.com/in/mbatia"
 								target="_blank"
+								rel="noreferrer"
 								className="text-lg hover:underline">
 								linkedin.com/in/mbatia
 							</a>

@@ -1,3 +1,5 @@
+'use client';
+
 import { motion } from 'framer-motion';
 
 export default function Hero() {
@@ -19,7 +21,7 @@ export default function Hero() {
 					Expert in construction cost management and estimation.
 				</p>
 				<a
-					href="contact"
+					href="/contact"
 					className="mt-8 inline-block px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-full text-lg font-bold text-white shadow-lg transform transition duration-300 hover:scale-105">
 					Get in Touch
 				</a>
