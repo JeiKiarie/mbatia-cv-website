@@ -7,6 +7,7 @@ import {
 	keywords,
 	siteName,
 	siteUrl,
+	absoluteUrl,
 } from './seo';
 
 export const metadata = {
@@ -23,12 +24,12 @@ export const metadata = {
 	publisher: 'Bernard Mbatia Mwangi',
 	category: 'Professional portfolio',
 	alternates: {
-		canonical: '/',
+		canonical: absoluteUrl('/'),
 	},
 	openGraph: {
 		type: 'profile',
 		locale: 'en_KE',
-		url: '/',
+		url: absoluteUrl('/'),
 		siteName,
 		title: defaultTitle,
 		description: defaultDescription,

@@ -71,17 +71,20 @@ export function absoluteUrl(path = '/') {
 
 export function pageMetadata(path) {
 	const page = pages.find((item) => item.path === path) || pages[0];
+	// Always emit fully qualified, self-referential URLs so every page declares an
+	// unambiguous canonical even if access occurs via a host/URL variant.
+	const url = absoluteUrl(path);
 
 	return {
 		title: path === '/' ? { absolute: page.title } : page.title,
 		description: page.description,
 		alternates: {
-			canonical: path,
+			canonical: url,
 		},
 		openGraph: {
 			title: page.title,
 			description: page.description,
-			url: path,
+			url,
 		},
 		twitter: {
 			title: page.title,
