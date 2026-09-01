@@ -1,3 +1,14 @@
+# robots.txt for https://mbatia-portfolio-cv-website.netlify.app/
+# All public content is indexable. Only /api/* is excluded from crawling.
+
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+
 User-agent: *
 Allow: /
 Disallow: /api/
