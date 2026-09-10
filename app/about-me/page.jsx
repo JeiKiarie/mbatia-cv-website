@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { pageMetadata } from '../seo';
+import { breadcrumbSchema, pageMetadata } from '../seo';
 
 export const metadata = pageMetadata('/about-me');
 
@@ -10,6 +10,12 @@ export default function About() {
 		<section
 			id="about"
 			className="py-20 bg-white mt-[2rem]">
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{
+					__html: JSON.stringify(breadcrumbSchema('/about-me')),
+				}}
+			/>
 			<div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
 				<div className="flex flex-col lg:flex-row items-center lg:items-start text-center lg:text-left">
 					{/* Profile Photo */}
@@ -26,7 +32,7 @@ export default function About() {
 
 					{/* About Content */}
 					<div className="space-y-4 max-w-xl mx-auto">
-						<h2 className="text-4xl font-extrabold">About Me</h2>
+						<h1 className="text-4xl font-extrabold">About Me</h1>
 						<p className="text-lg text-gray-700">
 							I have over {yearsOfExperience} years of experience in Quantity
 							Surveying and Cost Consultancy, specializing in Cost Management,

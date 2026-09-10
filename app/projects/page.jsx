@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { pageMetadata } from '../seo';
+import { breadcrumbSchema, pageMetadata } from '../seo';
 
 export const metadata = pageMetadata('/projects');
 
@@ -8,8 +8,23 @@ export default function Projects() {
 		<section
 			id="projects"
 			className="mt-8 py-20 bg-gray-100">
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{
+					__html: JSON.stringify(breadcrumbSchema('/projects')),
+				}}
+			/>
 			<div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
-				<h2 className="text-4xl font-extrabold mb-12 text-center">Projects</h2>
+				<h1 className="text-4xl font-extrabold mb-6 text-center">
+					Quantity Surveying Projects
+				</h1>
+				<p className="text-lg text-center text-gray-700 max-w-3xl mx-auto mb-12">
+					A selection of quantity surveying and cost consultancy projects
+					delivered between 2017 and 2024, covering bills of quantities, tender
+					evaluation, interim valuations, insurance loss adjustment claims,
+					final accounts, and site re-measurements on commercial, residential,
+					and interior fit-out developments across Kenya.
+				</p>
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 					{[
 						{

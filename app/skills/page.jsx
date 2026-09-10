@@ -8,7 +8,7 @@ import { FaCoins } from 'react-icons/fa';
 import { SiAutodesk } from 'react-icons/si';
 import { TfiMicrosoftAlt } from 'react-icons/tfi';
 import { SiAutodeskrevit } from 'react-icons/si';
-import { pageMetadata } from '../seo';
+import { breadcrumbSchema, pageMetadata } from '../seo';
 
 export const metadata = pageMetadata('/skills');
 
@@ -17,8 +17,16 @@ export default function Skills() {
 		<section
 			id="skills"
 			className="py-20 bg-white mt-8">
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{
+					__html: JSON.stringify(breadcrumbSchema('/skills')),
+				}}
+			/>
 			<div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
-				<h2 className="text-4xl font-extrabold mb-12 text-center">Skills</h2>
+				<h1 className="text-4xl font-extrabold mb-12 text-center">
+					Quantity Surveying Skills
+				</h1>
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-start">
 					<div className="bg-blue-500 text-white p-6 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 flex flex-col items-center gap-4  justify-center">
 						<i className="text-[2rem] mb-4">

@@ -4,7 +4,7 @@ import {
 	FaMapMarkerAlt,
 	FaLinkedin,
 } from 'react-icons/fa';
-import { pageMetadata } from '../seo';
+import { breadcrumbSchema, pageMetadata } from '../seo';
 
 export const metadata = pageMetadata('/contact');
 
@@ -18,13 +18,25 @@ export default function Contact() {
 				backgroundSize: 'cover',
 				backgroundPosition: 'center',
 			}}>
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{
+					__html: JSON.stringify(breadcrumbSchema('/contact')),
+				}}
+			/>
 			{/* Background Overlay */}
 			<div className="absolute inset-0 bg-black opacity-50"></div>
 
 			<div className="relative max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
-				<h2 className="text-4xl font-extrabold mb-12 text-center mx-auto relative">
-					Contact Me
-				</h2>
+				<h1 className="text-4xl font-extrabold mb-6 text-center mx-auto relative">
+					Contact Bernard Mbatia Mwangi
+				</h1>
+				<p className="text-lg text-center max-w-3xl mx-auto mb-12">
+					Get in touch for quantity surveying, construction cost management,
+					bills of quantities, tender evaluation, interim valuations, insurance
+					loss adjustment consultancy, and project cost consultancy in Nairobi,
+					Kenya.
+				</p>
 
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-12 relative">
 					{/* Contact Details Section */}

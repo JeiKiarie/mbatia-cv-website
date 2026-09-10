@@ -1,7 +1,7 @@
-import { absoluteUrl, pages } from './seo';
+import { absoluteUrl, pages, siteLastUpdated } from './seo';
 
 export default async function sitemap() {
-	const lastModified = new Date();
+	const lastModified = new Date(siteLastUpdated);
 
 	return pages.map((page) => ({
 		url: absoluteUrl(page.path),

@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { pageMetadata } from '../seo';
+import { breadcrumbSchema, pageMetadata } from '../seo';
 
 export const metadata = pageMetadata('/experience');
 
@@ -8,10 +8,16 @@ export default function Experience() {
 		<section
 			id="experience"
 			className="mt-8 py-20 bg-gradient-to-b from-gray-100 to-white">
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{
+					__html: JSON.stringify(breadcrumbSchema('/experience')),
+				}}
+			/>
 			<div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
-				<h2 className="text-4xl font-extrabold mb-12 text-center">
-					Experience
-				</h2>
+				<h1 className="text-4xl font-extrabold mb-12 text-center">
+					Quantity Surveying Experience
+				</h1>
 				<div className="flex flex-wrap gap-4 flex-col md:flex-row items-center justify-center">
 					<div className="basis-[100%] flex flex-col items-center">
 						<div className="bg-blue-700 rounded-full h-52 w-52 flex items-center justify-center">
