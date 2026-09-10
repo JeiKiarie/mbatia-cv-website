@@ -1,0 +1,13 @@
+# Netlify build configuration.
+#
+# Pins the build environment to Node.js 22 so Netlify builds match local
+# development and the tooling that requires Node 22 or higher.
+#
+# Netlify precedence (lowest to highest):
+#   build-image default  <  UI "Dependency management" setting  <  .nvmrc / .node-version / NODE_VERSION
+# Keep this value in sync with .nvmrc, .node-version and package.json "engines".
+#
+# Docs: https://docs.netlify.com/configure-builds/manage-dependencies/#node-js-and-javascript
+
+[build.environment]
+  NODE_VERSION = "22"
